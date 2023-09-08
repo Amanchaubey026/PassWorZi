@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,700;1,400&family=Rubik+Iso&family=Ubuntu&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    font-family: 'Rubik Iso', cursive;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+nav {
+    background-color: black;
+    color: aliceblue;
+    padding: 12px 3px;
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 0 23px;
+    font-size: 26px;
+    font-weight: 800;
+    cursor: pointer;
+}
+.logo:hover{
+    color: #131312;
+    background: #f9f9ed;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.1s;
+
+
+}
+ul {
+    display: flex;
+    margin: 0 23px;
+    align-items: center;
+}
+
+
+ul > li {
+    list-style: none;
+    margin: 0 13px;
+    cursor: pointer;
+}
+ul > li:hover {
+    color: #131312;
+    background: #f9f9ed;
+    box-shadow: 0 0 10px #2196f3, 0 0 40px #2196f3, 0 0 80px #2196f3;
+    transition-delay: 0.1s;
+}
+
+table,th,tr,td{
+    border: 2px solid black;
+    border-collapse: collapse;
+    padding: 5px 13px;
+}
+
+.container {
+    max-width: 80vw;
+    margin: 23px auto;
+}
+
+h1,h2,h3{
+    margin: 23px auto;
+}
+
+.btn{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid gray;
+    margin: 20px 0;
+    cursor: pointer;
+}
+.btnsm{
+    padding: 8px 17px;
+    background: black;
+    color: white;
+    border-radius: 12px;
+    border: 2px solid gray;
+    cursor: pointer;
+}
+img{
+    height: 16px;
+    width: 16px;
+    cursor: pointer;
+    position: relative;
+    bottom: 5px;
+}
+#alert{
+    display:none;
+}
